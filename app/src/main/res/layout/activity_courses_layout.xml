@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/course_android_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android"/>
+    <Button
+        android:id="@+id/course_android_java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java"/>
+    <Button
+        android:id="@+id/course_android_retrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrofit"/>
+    <Button
+        android:id="@+id/course_android_architecture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Architeture"/>
+    <Button
+        android:id="@+id/course_android_git"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Git"/>
+
+    <Button
+        android:id="@+id/course_android_submit"
+        android:layout_width="match_parent"
+        android:layout_marginTop="55dp"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"/>
+</LinearLayout>
